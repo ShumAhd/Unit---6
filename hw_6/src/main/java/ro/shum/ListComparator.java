@@ -3,6 +3,7 @@ package ro.shum;
 import java.util.List;
 
 public class ListComparator {
+
   public String compareLists(List<Integer> list1, List<Integer> list2) {
     double average1 = calculateAverage(list1);
     double average2 = calculateAverage(list2);
